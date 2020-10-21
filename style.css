@@ -96,8 +96,9 @@ header {
 }
 
 .image > img{
+    border: 1px;
     border-style: solid;
-    border-color: rgb(56, 177, 0);
+    border-color: black;
 }
 
 /* 先ほどとの違いが微妙なのですが、空白で区切ると .works の中の全ての h1 、そして > で区切ると .works の直下の階層にある h1 という意味になります。 */
@@ -130,18 +131,21 @@ header {
 }
 
 .music >img {
+    border: 1px;
     border-style: solid;
     border-color:rgb(255, 166, 0);
 }
 
-.html >img {
+.html > img {
+    border: 1px;
     border-style: solid;
-    border-color:red;
+    border-color:black;
 }
 
-.outgoing >img {
+.outgoing > img {
+    border: 1px;
     border-style: solid;
-    border-color:rgb(172, 232, 255);
+    border-color:black;
 }
 
 .unity >img {
@@ -154,3 +158,4 @@ header {
     /* 行間がゆったりしたのでうまくいったようです。 */
     line-height: 1.8;
 }
+
